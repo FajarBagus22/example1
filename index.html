@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pendaftaran Hewan</title>
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body>
+	
+	<form action="pes.php" method="post">
+		<h2>Pendaftaran hewan</h2>
+		<div class="kod">
+			<label> Kode hewan</label>
+			<input type="text" name="kode_hewan" placeholder="Masukan Kode Hewan">
+		</div>
+		<div class="nam">
+			<label>Nama Hewan</label>
+			<input class="p" name="nama_hewan" type="text" placeholder="Masukan Nama Hewan">
+		</div>
+		<div class="jen">
+			<label>Jenis kelamin</label>
+			<input type="radio" name="jenis_kelamin" value="p"> pria
+			<input type="radio" name="jenis_kelamin" value="w">wanita
+		</div>
+		<div class="uku">
+			<label>Ukuran ruang</label>
+			<input type="text" name="ukuran_ruangan" placeholder="Masukan ukuran ruang">/meter
+		</div>
+		<div class="rua">
+			<label>nama ruangan</label>
+			<select name="nama_ruangan">
+				<option>Pilih Ruang</option>
+				<option>Elang 1</option>
+				<option>Elang 2</option>
+				<option>Elang 3</option>
+			</select>
+		</div>
+		<div class="sub">
+			<input type="submit" name="">
+		</div>
+
+	</form>
+
+</body>
+</html>
